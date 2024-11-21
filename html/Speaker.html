@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPEAKER</title>
+    <link rel="stylesheet" href="../css/Speaker.css">
+    <link rel="stylesheet" href="../Bootstartp/Bootstrap.min.css">
+    <script src="../Bootstartp/Bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+
+
+
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand text-dark" style="font-family: 'Kalam', cursive;" href="#">Trending_Guitar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Instruments
+                        </a>
+                        <ul class="dropdown-menu" id="ins_drop">
+                            <div id="ddown">
+                                <div class="row dpdown">
+                                    <li class="col-lg-3 col-md-6 col-sm-6"><a class="dropdown-item text-dark" href="#">
+                                            <h5>Guitar</h5>
+                                        </a></li>
+                                    <li class="col-lg-3 col-md-6 col-sm-6"><a class="dropdown-item" id="drop_down"
+                                            href="../html/Acoustic.html">Classical
+                                            Guitar</a></li>
+                                    <li class="col-lg-3 col-md-6 col-sm-6"><a class="dropdown-item" id="drop_down"
+                                            href="./Electric.html">Electric
+                                            Guitar</a></li>
+                                    <li class="col-lg-3 col-md-6 col-sm-6"><a class="dropdown-item" id="drop_down"
+                                            href="#">Bass
+                                            Guitar</a></li>
+                                </div>
+                                <div class="row dpdown">
+                                    <li class="col-lg-3 col-md-6 col-sm-6"><a class="dropdown-item text-dark" href="#">
+                                            <h5>Keyboard</h5>
+                                        </a></li>
+                                    <li class="col-lg-3 col-md-6 col-sm-6"><a class="dropdown-item" id="drop_down"
+                                            href="#">Digital_Keyboard</a></li>
+                                    <li class="col-lg-3 col-md-6 col-sm-6"><a class="dropdown-item" id="drop_down"
+                                            href="#">Piano</a></li>
+                                </div>
+                                <div class="row dpdown">
+                                    <li class="col-lg-3 col-md-6 col-sm-6"><a class="dropdown-item text-dark" href="#">
+                                            <h5>Drums</h5>
+                                        </a></li>
+                                    <li class="col-lg-3 col-md-6 col-sm-6"><a class="dropdown-item" id="drop_down"
+                                            href="#">Pad</a></li>
+                                    <li class="col-lg-3 col-md-6 col-sm-6"><a class="dropdown-item" id="drop_down"
+                                            href="#">Drums</a></li>
+
+                                </div>
+                                <div class="row dpdown">
+                                    <li class="col-lg-3 col-md-6 col-sm-6"><a class="dropdown-item text-dark" href="#">
+                                            <h5>Flutes</h5>
+                                        </a></li>
+                                    <li class="col-lg-3 col-md-6 col-sm-6"><a class="dropdown-item" id="drop_down"
+                                            href="#">contra-alto</a>
+                                    </li>
+                                    <li class="col-lg-3 col-md-6 col-sm-6"><a class="dropdown-item" id="drop_down"
+                                            href="#">hyperbass</a>
+                                    </li>
+                                    <li class="col-lg-3 col-md-6 col-sm-6"><a class="dropdown-item" id="drop_down"
+                                            href="#">subcontrabass</a>
+                                    </li>
+
+                                </div>
+                                <div class="row dpdown">
+                                    <li class="col-lg-3 col-md-6 col-sm-6"><a class="dropdown-item text-dark" href="#">
+                                            <h5>Electric Violin</h5>
+                                        </a></li>
+                                    <li class="col-lg-3 col-md-6 col-sm-6"><a class="dropdown-item" id="drop_down"
+                                            href="#">Bass violin</a>
+                                    </li>
+                                    <li class="col-lg-3 col-md-6 col-sm-6"><a class="dropdown-item" id="drop_down"
+                                            href="#">Baroque violin</a>
+                                    </li>
+
+
+                                </div>
+                            </div>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Audio Controller
+                        </a>
+                        <ul class="dropdown-menu " id="audio">
+                            <div class="row">
+                                <li class="col-6"><a class="dropdown-item" id="drop_down" href="#">Sound Bar</a></li>
+                                <li class="col-6"><a class="dropdown-item" id="drop_down" href="#">Earphones</a></li>
+                            </div>
+                            <div class="row">
+                                <li class="col-6"><a class="dropdown-item" id="drop_down" href="#">HeadPhones</a></li>
+                                <li class="col-6"><a class="dropdown-item" id="drop_down" href="#">Amplifier</a></li>
+                            </div>
+                            <div class="row">
+                                <li class="col-6"><a class="dropdown-item" id="drop_down" href="#">Guitar Tuner</a></li>
+                                <li class="col-6"><a class="dropdown-item" id="drop_down" href="#">HeadPhones</a></li>
+                            </div>
+                            <li class="col-6"><a class="dropdown-item" id="drop_down" href="#">HeadPhones</a></li>
+                            <div class="row">
+
+                            </div>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Online Classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Offer</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Main -->
+    <div class="Speaker">
+
+        <!-- Filter -->
+        <div class="filter">
+            <button id="filter_hambuger" onclick="changehambuger()"><svg width="50px" height="50px"
+                    viewBox="-6.12 -6.12 24.24 24.24" enable-background="new 0 0 12 12" id="Слой_1" version="1.1"
+                    xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    fill="#000000" stroke="#000000" stroke-width="0.588" transform="rotate(0)">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <g>
+                            <rect fill="#1D1D1B" height="1" width="11" x="0.5" y="5.5"></rect>
+                            <rect fill="#1D1D1B" height="1" width="11" x="0.5" y="2.5"></rect>
+                            <rect fill="#1D1D1B" height="1" width="11" x="0.5" y="8.5"></rect>
+                        </g>
+                    </g>
+                </svg>
+            </button>
+
+            <div id="filter_total">
+                <h5 style="font-size: 1.3rem !important; margin-top: 20px !important;">Filter</h5>
+
+
+                <div class="price">
+                    <label for="priceRange" style="width: 170px;">Price Range:</label>
+                    <input type="number" id="minPrice" placeholder="Min" style="width: auto;">
+                    <input type="number" id="maxPrice" placeholder="Max" style="width: auto;">
+                    <button
+                        style="margin-top: 10px; border: none; border-radius: 10px; background-color: rgb(63, 98, 104); width: 80px; color: white;"
+                        onclick="filterProducts()">Apply</button>
+                </div>
+
+
+                <div class="brand" style="margin-top: 30px;">
+                    <h6>Brand:</h6>
+                    <input type="checkbox" id="yamaha" value="Yamaha" onclick="filterProducts()">
+                    <label for="yamaha">Yamaha</label><br>
+                    <input type="checkbox" id="fender" value="Fender" onclick="filterProducts()">
+                    <label for="fender">Fender</label><br>
+                    <input type="checkbox" id="givson" value="Givson" onclick="filterProducts()">
+                    <label for="givson">Givson</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="collections">
+            <div class="boxes">
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+
+    <div class="container-fluid mt-5" id="footer">
+        <div class="row">
+            <div class="col-lg-2 col-md-4 col-sm-6" id="col">
+                <p>HOME</p>
+                <li class="footer_li"><a href="">Contact Us</a></li>
+                <li class="footer_li"><a href="">About Us</a></li>
+                <li class="footer_li"><a href="">Careers</a></li>
+                <li class="footer_li"><a href="">Stories</a></li>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6" id="col">
+                <p>GROUP COMPANIES</p>
+                <li class="footer_li"><a href="">Yamaha</a></li>
+                <li class="footer_li"><a href="">Givson Us</a></li>
+                <li class="footer_li"><a href="">Fender</a></li>
+                <li class="footer_li"><a href="">Kedance</a></li>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6" id="col">
+                <p>HELP</p>
+                <li class="footer_li"><a href="">Payments</a></li>
+                <li class="footer_li"><a href="">Shipping</a></li>
+                <li class="footer_li"><a href="">Cancellation & Return</a></li>
+                <li class="footer_li"><a href="">FAQ</a></li>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6" id="col">
+                <p>CONSUMER POLICY</p>
+                <li class="footer_li"><a href="">Terms Of Use</a></li>
+                <li class="footer_li"><a href="">Security</a></li>
+                <li class="footer_li"><a href="">Pravicy</a></li>
+                <li class="footer_li"><a href="">Sitemap</a></li>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6" id="hr_line">
+                <p>Mail</p>
+                <li class="footer_li"><a href="https://mail.google.com/mail/u/0/#inbox">Mail us</a></li>
+                <li class="footer_li"><a href="">Komarapalayam,periyar nagar,Olapalayam</a></li>
+                <li class="footer_li"><a href="#91 6383983799">+91 6383983799</a></li>
+
+            </div>
+
+
+            <hr>
+
+            <div class="footer_bottom">
+                <div class="footer_bottom_end">
+                    <img class="footer_img"
+                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE2IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTJoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTUuOTMgNS42MTRoLTIuOTQ4VjQuMTRjMC0uODE4LS42NTUtMS40NzMtMS40NzMtMS40NzNIOC41NmMtLjgxNyAwLTEuNDczLjY1NS0xLjQ3MyAxLjQ3M3YxLjQ3NEg0LjE0Yy0uODE4IDAtMS40NjYuNjU2LTEuNDY2IDEuNDc0bC0uMDA3IDguMTA1YzAgLjgxOC42NTUgMS40NzQgMS40NzMgMS40NzRoMTEuNzljLjgxOCAwIDEuNDc0LS42NTYgMS40NzQtMS40NzRWNy4wODhjMC0uODE4LS42NTYtMS40NzQtMS40NzQtMS40NzR6bS00LjQyMSAwSDguNTZWNC4xNGgyLjk0OHYxLjQ3NHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yIC0yKSIvPgogICAgPC9nPgo8L3N2Zz4K"
+                        alt="">
+                    <p class="">Advertise</p>
+                </div>
+                <div class="footer_bottom_end">
+                    <img class="footer_img"
+                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0zLTNoMjB2MjBILTN6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTAuNDkyIDNDNi4zNTMgMyAzIDYuMzYgMyAxMC41YzAgNC4xNCAzLjM1MyA3LjUgNy40OTIgNy41QzE0LjY0IDE4IDE4IDE0LjY0IDE4IDEwLjUgMTggNi4zNiAxNC42NCAzIDEwLjQ5MiAzem0zLjE4IDEyTDEwLjUgMTMuMDg4IDcuMzI3IDE1bC44NC0zLjYwN0w1LjM3IDguOTdsMy42OS0uMzE1TDEwLjUgNS4yNWwxLjQ0IDMuMzk4IDMuNjkuMzE1LTIuNzk4IDIuNDIyLjg0IDMuNjE1eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo="
+                        alt="">
+                    <p class="">Gift Cards</p>
+                </div>
+                <div class="footer_bottom_end">
+                    <img class="footer_img"
+                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTNoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNOS41IDNDNS4zNiAzIDIgNi4zNiAyIDEwLjUgMiAxNC42NCA1LjM2IDE4IDkuNSAxOGM0LjE0IDAgNy41LTMuMzYgNy41LTcuNUMxNyA2LjM2IDEzLjY0IDMgOS41IDN6bS43NSAxMi43NWgtMS41di0xLjVoMS41djEuNXptMS41NTMtNS44MTNsLS42NzYuNjljLS41NC41NDgtLjg3Ny45OTgtLjg3NyAyLjEyM2gtMS41di0uMzc1YzAtLjgyNS4zMzgtMS41NzUuODc3LTIuMTIzbC45My0uOTQ1Yy4yNzgtLjI3LjQ0My0uNjQ1LjQ0My0xLjA1NyAwLS44MjUtLjY3NS0xLjUtMS41LTEuNVM4IDcuNDI1IDggOC4yNUg2LjVhMyAzIDAgMSAxIDYgMGMwIC42Ni0uMjcgMS4yNi0uNjk3IDEuNjg4eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo="
+                        alt="">
+                    <p class="">Help Center</p>
+                </div>
+                <div class="footer_bottom_end">
+                    <img class="footer_img"
+                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDE4IDE3Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0xLTFoMjB2MjBILTF6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTYuNjY3IDVIMTQuODVjLjA5Mi0uMjU4LjE1LS41NDIuMTUtLjgzM2EyLjQ5NyAyLjQ5NyAwIDAgMC00LjU4My0xLjM3NUwxMCAzLjM1bC0uNDE3LS41NjdBMi41MSAyLjUxIDAgMCAwIDcuNSAxLjY2N2EyLjQ5NyAyLjQ5NyAwIDAgMC0yLjUgMi41YzAgLjI5MS4wNTguNTc1LjE1LjgzM0gzLjMzM2MtLjkyNSAwLTEuNjU4Ljc0Mi0xLjY1OCAxLjY2N2wtLjAwOCA5LjE2NkExLjY2IDEuNjYgMCAwIDAgMy4zMzMgMTcuNWgxMy4zMzRhMS42NiAxLjY2IDAgMCAwIDEuNjY2LTEuNjY3VjYuNjY3QTEuNjYgMS42NiAwIDAgMCAxNi42NjcgNXptMCA2LjY2N0gzLjMzM3YtNWg0LjIzNEw1LjgzMyA5LjAyNWwxLjM1Ljk3NSAxLjk4NC0yLjdMMTAgNi4xNjdsLjgzMyAxLjEzMyAxLjk4NCAyLjcgMS4zNS0uOTc1LTEuNzM0LTIuMzU4aDQuMjM0djV6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMSAtMSkiLz4KICAgIDwvZz4KPC9zdmc+Cg=="
+                        alt="">
+                    <p class="">Become a Seller</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script src="../javascript/Speaker.js"></script>

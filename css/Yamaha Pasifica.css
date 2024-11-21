@@ -1,0 +1,229 @@
+.carousel-indicators img{
+    width: 60px !important;
+    height: 60px !important;
+    margin-left: 20px !important;
+    
+}
+#carouselExampleIndicators{
+    display: flex !important;  
+    height: 330px !important;
+    width: 450px !important;
+}
+#caro{
+    margin-top: 50px !important;
+    margin-right: 0px !important;
+    display: flex !important;
+    flex-direction:column !important;
+}
+.carousel-inner{
+    box-shadow: 0 0 4px 2px rgba(128, 128, 128, 0.233) !important;
+    border-radius: 20px;
+    margin-right: 30px !important;
+}
+.carousel-item img{
+    height: 300px !important;
+    width: 300px !important;
+    display: flex;
+    flex-direction: row !important;
+    
+}
+#review{
+    background-color: green;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 4px;
+    text-align: center;
+}
+b{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+#percentage{
+    font-size: 16px;
+    margin-left: 20px;
+    color: green;
+}
+#Details{
+    line-height: 40px;
+    /* background-color: antiquewhite; */
+}
+.Coupons{
+    font-weight: 500;
+}
+.icons{
+    list-style: none !important;
+    display: flex;
+
+}
+.icons img{
+    width: 20px;
+    height: 20px;
+}
+.icons p{
+    margin-left: 20px;
+}
+#offers{
+    line-height: 20px;
+    margin-top: 30px;
+}
+.highlight{
+    color: rgba(128, 128, 128, 0.651);
+    font-weight: 500;
+}
+.bttn:nth-child(1){
+    width: 120px !important;
+    background-color: rgb(216, 97, 18);
+    border: none;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 1.3rem;  
+}
+.bttn:nth-child(2){
+    width: 120px !important;
+    background-color: rgb(255, 196, 0);
+    border: none;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 1.3rem;
+}
+.box_btn{
+    margin-left: 140px !important;
+    margin-top: 40px !important;
+}
+
+
+/* footer */
+
+.color{
+    color: rgb(128, 128, 128);
+}
+td{
+    padding-left: 29px !important;
+}
+.footer_li{
+    
+    list-style: none;
+}
+.footer_li a{
+    text-decoration: none;
+    color: black;
+   
+}
+#footer{
+    padding: 0%;
+    margin: 0%;
+    color:yellow !important;
+    background-color: teal;
+
+}
+#footer .row{
+    background-color: teal;
+    text-align: center;
+    
+    
+}
+ #col{
+    margin-top: 30px !important;
+    padding: 20px;
+}
+#hr_line{
+    margin-top: 35px !important;
+    border-left: 1px solid white;
+}
+.footer_bottom{
+    display: flex !important;
+}
+.footer_bottom_end{
+    display: flex !important;
+    margin-left: 25px  ;
+}
+.footer_bottom_end p{
+    margin-left: 15px;
+}
+.footer_bottom_end img{
+    margin-bottom: 19px;
+    
+}
+
+
+
+@media only screen and (min-width:360px) and (max-width:480px) {
+    #Details{
+        margin-left: 0% !important;
+        margin-top: 50px !important;
+     }
+    .bttn{
+        width: 120px !important;
+        background-color: rgb(255, 196, 0);
+        border: none;
+        color: white;
+        height: 40px;
+        margin-top: 49px !important;
+    }
+    .box_btn{
+        display: flex !important;
+        margin-left: 35px !important;
+    }
+    .carousel-item img{
+        width:250px !important;
+        height: 300px !important;
+    }
+    .carousel-inner{
+        box-shadow: 0 0 0px 0px rgb(255, 0, 0) !important;
+        border-radius: 20px;
+        width: auto !important;
+        margin-right: 50px !important;
+    }
+    .carousel-control-prev{
+        display: none;
+    }
+    .carousel-control-next{
+        display: none;
+    }
+    #carouselExampleIndicators{
+        width: auto !important;
+        height: 320px !important;
+    }
+    .carousel-indicators img{
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    .footer_bottom{
+        display: none !important;
+    }
+    .carousel-item{
+        width: 100% !important;
+    }
+    #caro{
+        margin-top: 270px !important;
+        display: flex !important;
+        flex-direction:row !important;
+    }   
+
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    #Details{
+        margin-top: 30px !important;
+    }
+}
+
+@media only screen and  (min-width:992px) and (max-width:1084px) {
+    #Details{
+       margin-left: 80px !important;
+    }
+    .bttn{
+        margin-top: 9px !important;
+    }
+    .box_btn{
+        display: flex !important;
+        width: 300px !important;
+    }
+   
+
+}

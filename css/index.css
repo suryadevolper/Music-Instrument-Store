@@ -1,0 +1,401 @@
+body{
+    background-color:#F0F0F0 !important;
+    color: #333333 !important;
+}
+
+marquee a{
+    text-decoration: none;
+    cursor: none;
+    background-color:#FAF3E0;
+    padding: 10px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#navbar{
+    z-index: 100;
+    background-color:hsl(202, 100%, 61%);
+   
+}
+
+nav{
+    position: sticky !important;
+    top: 0;
+}
+
+nav a{
+    color: rgb(1, 1, 1) !important;
+    font-weight: 600 !important;
+}
+
+.main_one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+    margin-top: 50px;
+    
+}
+
+.home_card{
+    height: 180px;
+    width: 130px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px 2px gray;    
+}
+
+.home_card::before{
+    content: '';
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    transition: 0.5s all;
+}
+
+h1{
+    filter: drop-shadow(8px 8px 20px );
+}
+.home_card p{
+    display: flex;
+    position: absolute;
+     margin-top: 145px;
+    margin-left: 30px;
+    color: white;
+    border: 1px solid #be0000;
+    border-radius: 10px;
+}
+
+.home{
+    background-size: cover;
+    border-radius: 10px;
+    max-width:150px;
+    max-height: 180px;
+    transition: 0.2s linear;
+}
+
+#headset{
+    width: 130px;
+}
+
+.home:hover  {
+    transform: scale(1.1);
+}
+
+.home_card:hover .overlay {
+	opacity: 1;
+    transform: translateY(-65px);
+}
+
+.home_card .overlay {
+	z-index: 3;
+	color: white;
+	opacity: 0;
+    transform: translateY(-40px);
+	transition: 0.5s all;
+    text-align: center;	
+}
+
+.link-a button{
+	width: 100px;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 120px;
+	color: #000;
+    border: none;    
+	cursor: pointer;
+	transition: .4s ease-in-out;
+}
+
+.link-a button:active{
+    background-color: #be0000;
+}
+
+
+#drop_down{
+    color: rgb(134, 22, 22) !important;
+    display: flex !important;
+    width: auto !important;
+}
+
+#drop_down:hover{
+    border-radius: 20px;
+    color: rgb(4, 4, 4) !important;
+}
+
+#ins_drop{
+   width: auto !important;
+}
+.box:nth-child(1){
+    margin-top: 120px;
+}
+
+.box p{
+    font-size: 13.3px;
+    padding: 40px;
+    font-weight: 500;
+}
+
+#audio{
+    width: 300px;
+}
+
+.instrument{
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.delivery p{
+    padding: 0%;
+    margin: 0%;
+    
+}
+.delivery div p{
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    align-content: center;
+    border-radius: 20px;
+    box-shadow: 0 0 8px 2px rgb(0, 0, 0);
+    margin-left: 24px !important;
+    font-size: 30px;
+    
+}
+.delivery{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.dpdown{
+    display: flex !important;
+    flex-direction: column !important;
+    width: auto !important;    
+}
+
+#ddown{
+    display: flex;
+}
+#trend{
+    font-family: "Kalam", cursive !important;
+
+}
+.contact_one{
+    margin-top: 50px !important;
+    height: auto !important;
+   margin: 5px;
+    display: flex;  
+    align-items: first baseline;
+    flex-wrap: wrap;
+    text-align: center !important;
+    align-content: center;
+}
+#contact_p{
+    color: rgb(106, 106, 106) !important;
+    font-size: 0.8rem;
+    
+}
+.contact_nav{
+    /* border: 1px solid #000; */
+    margin-top: 30px;
+    width: 305px !important;
+}
+.contact{
+    height: auto !important;
+    
+    box-shadow: 0 0 8px 2px darkgrey;
+
+}
+.icons{
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 769px) {
+    .home_card{
+        margin: 10px;
+    }
+    #ins_drop{
+        width: 735px;
+     }
+     .delivery div p{
+        width: 230px;
+        height: 60px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px 4px darkgray;
+        background-color: rgba(128, 128, 128, 0.194);
+        margin-left: -13px !important;
+        font-size: 20px;
+
+     }
+     #contact_p{
+        color: rgb(106, 106, 106) !important;
+        font-size: 0.8rem;
+        
+    }
+     .contact_nav{
+        /* border: 1px solid #000; */
+        width: 325px;
+    }
+    
+    
+}
+
+
+
+
+
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+    .home_card{
+        margin: 20px;
+    }
+    #ins_drop{
+        width: auto !important;
+     }
+     
+#ddown{
+    display: flex;
+}
+#drop_down{
+    font-size: 13px;
+}
+.box p{
+    text-align: center;
+    
+}
+.delivery{
+    display: block;
+}
+.delivery div p{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    border-radius: 20px;
+    box-shadow: 0 0 8px 2px rgb(0, 0, 0);
+    background-color: darkgray;
+    margin-left: 64px !important;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+
+ }
+ .contact_one{
+    /* border: 1px solid #000; */
+    /* box-shadow: 0 0 8px 2px darkgrey; */
+    /* background-color: gray; */
+    margin-top: 50px !important;
+    height: auto !important;
+   margin: 5px;
+    display: flex;
+    flex-wrap: wrap;  
+    text-align: center !important;
+    align-content: center;
+}
+#contact_p{
+    color: rgb(106, 106, 106) !important;
+    font-size: 0.8rem;
+    
+}
+.contact_nav{
+    /* border: 1px solid #000; */
+    width: 325px;
+    height: auto !important;
+}
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-device-width: 480px) {
+    .home_cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 10px;
+
+    }
+    .home{
+        border-radius: 20px;
+        width:140px;
+        box-shadow: 0 0 8px 2px rgb(22, 22, 22);
+    }
+    .home_card{
+        margin: 10px;
+    }
+    .ads_img_1{
+        display: none;
+    }
+    .ads_img_2{
+        display: block !important;
+    }
+    #ins_drop{
+        width: 235px;
+     }
+     .box p{
+        font-size: 10.3px;
+        padding: 40px;
+        font-weight: 500;
+        padding: 10px;
+    }
+    .box{
+        padding: 20px;
+    }
+    #ddown{
+        display: block;
+
+    }
+    #drop_down{
+        font-size: 13px;
+    }
+    h1{
+        font-size: 2rem !important;
+    }
+    .delivery div p{
+        margin-top: 30px !important;
+        width: 200px;
+    height: auto !important;
+    border-radius: 20px;
+    box-shadow: 0 0 8px 2px rgb(0, 0, 0);
+    background-color: darkgray;
+    margin-left:54px !important;
+    font-size: 18px;
+    font-weight: 700;
+    
+
+    }
+
+    .delivery{
+        display: block;
+        
+       
+    }
+}

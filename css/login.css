@@ -1,0 +1,57 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 633px;
+    background-image: url(../images/ads_lap.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);   
+}
+div{
+    width: 380px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 1px gray;
+}
+small{
+    color: red;
+    margin-left: 30px;
+    display: none;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+input{
+    width: 300px;
+    height: 30px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+label{
+    margin-left: 31px;
+    margin-bottom: 50px;
+    color: white;
+}
+button{
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 160px;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0  8px 1px gray;
+}

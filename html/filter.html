@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Filter</title>
+    <style>
+       
+        .product {
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Product List</h1>
+    <input type="text" id="search" placeholder="Search products..." />
+
+    <div id="product-list"></div>
+
+    
+</body>
+</html>
+
+<script>
+    
+const products = [
+    { id: 1, name: 'Apple iPhone 14', category: 'Electronics' },
+    { id: 2, name: 'Samsung Galaxy S21', category: 'Electronics' },
+    { id: 3, name: 'Sony WH-1000XM4', category: 'Accessories' },
+    { id: 4, name: 'Dell XPS 13', category: 'Laptops' },
+    { id: 5, name: 'Nike Air Max', category: 'Footwear' },
+];
+
+
+
+// Function to display products
+function displayProducts(filteredProducts) {
+    const productList = document.getElementById('product-list');
+    productList.innerHTML = ''; // Clear existing products
+
+    filteredProducts.forEach(product => {
+        const productDiv = document.createElement('div');
+        productDiv.className = 'product';
+        productDiv.innerHTML = `<strong>${product.name}</strong> <em>(${product.category})</em>`;
+        productList.appendChild(productDiv);
+    });
+}
+
+// Initial display of all products
+displayProducts(products);
+
+// Event listener for search input
+document.getElementById('search').addEventListener('input', function() {
+    const searchTerm = this.value.toLowerCase();
+
+    const filteredProducts = products.filter(product => 
+        product.name.toLowerCase().includes(searchTerm)
+    );
+
+    displayProducts(filteredProducts);
+});
+
+</script>

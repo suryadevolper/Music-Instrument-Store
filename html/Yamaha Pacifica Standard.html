@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yamaha Pasifica Standard</title>
+  <link rel="stylesheet" href="../Bootstartp/Bootstrap.min.css">
+  <link rel="stylesheet" href="../css/Yamaha Pasifica.css">
+</head>
+
+
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <h4 class="d-flex justify-content-center"><b>Trending Guitar</b></h4>
+      </div>
+    </div>
+
+
+
+
+    <!-- Carousel -->
+    <!-- col-lg-4 col-md-12 col-sm-12 -->
+
+    <div class="row mt-5" id="row_caro">
+      <div class=" col-lg-4 col-md-12 col-sm-12 mt-2" id="carousel_col">
+        <div id="carouselExampleIndicators" class="carousel slide d-flex" data-bs-ride="carousel">
+          <div class="carousel-indicators mt-5 " id="caro">
+            <img
+              src="https://yamaha.ndcdn.in/media/catalog/product/cache/9e0f31af0cdc06df956748b13dabad87/p/a/pacs_12m_black_front_0001.jpg"
+              data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></img>
+            <img
+              src="https://yamaha.ndcdn.in/media/catalog/product/cache/9e0f31af0cdc06df956748b13dabad87/p/a/pacs_12m_black_back_0001.jpg"
+              data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></img>
+            <img src="https://m.media-amazon.com/images/I/71fAH8qJ+VL._SY606_.jpg"
+              data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></img>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://yamaha.ndcdn.in/media/catalog/product/cache/9e0f31af0cdc06df956748b13dabad87/p/a/pacs_12m_black_front_0001.jpg"
+                class="d-block w-100" alt="..." id="image">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://yamaha.ndcdn.in/media/catalog/product/cache/9e0f31af0cdc06df956748b13dabad87/p/a/pacs_12m_black_back_0001.jpg"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://m.media-amazon.com/images/I/71fAH8qJ+VL._SY606_.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+
+
+
+        <div class="box_btn">
+          <button onclick="AddToCart()" class="bttn" id="cart"><svg style="margin-bottom: 7px; margin-right:6px"
+              xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-plus-fill"
+              viewBox="0 0 16 16">
+              <path
+                d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0" />
+            </svg>Add Cart</button>
+          <button  class="bttn" id="buy"><svg style="margin-bottom: 7px; margin-right:6px"
+              xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag-fill"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z" />
+            </svg>Buy</button>
+        </div>
+      </div>
+
+
+
+      <div class="col-lg-1 col-md-1 col-sm-1">
+
+      </div>
+
+      <!-- Details -->
+
+      <!-- col-lg-5 col-md-5 col-sm-12 -->
+
+      <div class="col-lg-5 col-md-12 col-sm-12 d-flex" id="Details">
+        <div id="offer_time">
+
+        </div>
+
+        <div>
+          <h4 id="name">YAMAHA PACIFICA012 Electro-acoustic Guitar (BLACK)</h4>
+          <span id="review">3.9 &#9733;</span> <br>
+          <p ><b id="price" > <span>₹</span> 149000</b> <i><strike>₹ 1,60,000</strike></i><span id="percentage">20%_off</span></p>
+          <div id="offers">
+            <p class="Coupons">Coupons for you</p>
+
+            <li class="icons"><img
+                src="https://rukminim2.flixcart.com/www/36/36/promos/30/07/2019/79f48e86-8a93-46ab-b45a-5a12df491941.png?q=90"
+                alt="">
+              <p>Special PriceGet extra ₹250 off on 1 item(s) (price inclusive of cashback/coupon)</p>
+            </li>
+
+            <p class="Coupons">Available offers</p>
+
+            <li class="icons"><img
+                src="https://rukminim2.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90"
+                alt="">
+              <p>Bank Offer5% Unlimited Cashback on Flipkart Axis Bank Credit Card</p>
+            </li>
+            <li class="icons"><img
+                src="https://rukminim2.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90"
+                alt="">
+              <p>Partner OfferMake a purchase and enjoy a surprise cashback/ coupon that you can redeem later!</p>
+            </li>
+            <li class="icons"><img
+                src="https://rukminim2.flixcart.com/www/36/36/promos/06/09/2016/49f16fff-0a9d-48bf-a6e6-5980c9852f11.png?q=90"
+                alt="">
+              <p>EMI starting from ₹551/month</p>
+            </li>
+
+            <p class="highlight">Highlights</p>
+            <li>Type: Electro-acoustic</li>
+            <li>Material: Alder</li>
+            <li>Frets Included: Yes</li>
+            <li>Total Frets: 22</li>
+            <li>Total Strings: 6</li>
+            <li>Weight: 4 kg</li>
+
+
+            <p class="highlight mt-3">Important Note</p>
+            <li style="list-style: none;">For multicolor products, please check the image for colour details before
+              purchasing.</li>
+
+
+            <p class="highlight mt-3">Specifications</p>
+
+            <div>
+              <table>
+                <tr>
+                  <td class="color">Brand</td>
+                  <td>YAMAHA</td>
+                </tr>
+                <tr>
+                  <td class="color">Body Material</td>
+                  <td>Alder</td>
+                </tr>
+                <tr>
+                  <td class="color">Color</td>
+                  <td>Multicolor</td>
+                </tr>
+                <tr>
+                  <td class="color">Fretboard Material</td>
+                  <td>Rosewood</td>
+                </tr>
+                <tr>
+                  <td class="color">Frets Present</td>
+                  <td>Yes</td>
+                </tr>
+                <tr>
+                  <td class="color">Type</td>
+                  <td>Electro-acoustic</td>
+                </tr>
+              </table>
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- footer -->
+
+
+    <div class="container-fluid mt-5" id="footer">
+      <div class="row">
+        <div class="col-lg-2 col-md-4 col-sm-6" id="col">
+          <p>HOME</p>
+          <li class="footer_li"><a href="">Contact Us</a></li>
+          <li class="footer_li"><a href="">About Us</a></li>
+          <li class="footer_li"><a href="">Careers</a></li>
+          <li class="footer_li"><a href="">Stories</a></li>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6" id="col">
+          <p>GROUP COMPANIES</p>
+          <li class="footer_li"><a href="">Yamaha</a></li>
+          <li class="footer_li"><a href="">Givson Us</a></li>
+          <li class="footer_li"><a href="">Fender</a></li>
+          <li class="footer_li"><a href="">Kedance</a></li>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6" id="col">
+          <p>HELP</p>
+          <li class="footer_li"><a href="">Payments</a></li>
+          <li class="footer_li"><a href="">Shipping</a></li>
+          <li class="footer_li"><a href="">Cancellation & Return</a></li>
+          <li class="footer_li"><a href="">FAQ</a></li>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6" id="col">
+          <p>CONSUMER POLICY</p>
+          <li class="footer_li"><a href="">Terms Of Use</a></li>
+          <li class="footer_li"><a href="">Security</a></li>
+          <li class="footer_li"><a href="">Pravicy</a></li>
+          <li class="footer_li"><a href="">Sitemap</a></li>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6" id="hr_line">
+          <p>Mail</p>
+          <li class="footer_li"><a href="https://mail.google.com/mail/u/0/#inbox">Mail us</a></li>
+          <li class="footer_li"><a href="">Komarapalayam,periyar nagar,Olapalayam</a></li>
+          <li class="footer_li"><a href="#91 6383983799">+91 6383983799</a></li>
+          
+        </div>
+      </div>
+      <hr>
+      <div class="footer_bottom">
+        <div class="footer_bottom_end">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE2IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTJoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTUuOTMgNS42MTRoLTIuOTQ4VjQuMTRjMC0uODE4LS42NTUtMS40NzMtMS40NzMtMS40NzNIOC41NmMtLjgxNyAwLTEuNDczLjY1NS0xLjQ3MyAxLjQ3M3YxLjQ3NEg0LjE0Yy0uODE4IDAtMS40NjYuNjU2LTEuNDY2IDEuNDc0bC0uMDA3IDguMTA1YzAgLjgxOC42NTUgMS40NzQgMS40NzMgMS40NzRoMTEuNzljLjgxOCAwIDEuNDc0LS42NTYgMS40NzQtMS40NzRWNy4wODhjMC0uODE4LS42NTYtMS40NzQtMS40NzQtMS40NzR6bS00LjQyMSAwSDguNTZWNC4xNGgyLjk0OHYxLjQ3NHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yIC0yKSIvPgogICAgPC9nPgo8L3N2Zz4K" alt="">
+          <p class="">Advertise</p>
+        </div>
+        <div class="footer_bottom_end">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0zLTNoMjB2MjBILTN6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTAuNDkyIDNDNi4zNTMgMyAzIDYuMzYgMyAxMC41YzAgNC4xNCAzLjM1MyA3LjUgNy40OTIgNy41QzE0LjY0IDE4IDE4IDE0LjY0IDE4IDEwLjUgMTggNi4zNiAxNC42NCAzIDEwLjQ5MiAzem0zLjE4IDEyTDEwLjUgMTMuMDg4IDcuMzI3IDE1bC44NC0zLjYwN0w1LjM3IDguOTdsMy42OS0uMzE1TDEwLjUgNS4yNWwxLjQ0IDMuMzk4IDMuNjkuMzE1LTIuNzk4IDIuNDIyLjg0IDMuNjE1eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo=" alt="">
+          <p class="">Gift Cards</p>
+        </div>
+        <div class="footer_bottom_end">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTNoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNOS41IDNDNS4zNiAzIDIgNi4zNiAyIDEwLjUgMiAxNC42NCA1LjM2IDE4IDkuNSAxOGM0LjE0IDAgNy41LTMuMzYgNy41LTcuNUMxNyA2LjM2IDEzLjY0IDMgOS41IDN6bS43NSAxMi43NWgtMS41di0xLjVoMS41djEuNXptMS41NTMtNS44MTNsLS42NzYuNjljLS41NC41NDgtLjg3Ny45OTgtLjg3NyAyLjEyM2gtMS41di0uMzc1YzAtLjgyNS4zMzgtMS41NzUuODc3LTIuMTIzbC45My0uOTQ1Yy4yNzgtLjI3LjQ0My0uNjQ1LjQ0My0xLjA1NyAwLS44MjUtLjY3NS0xLjUtMS41LTEuNVM4IDcuNDI1IDggOC4yNUg2LjVhMyAzIDAgMSAxIDYgMGMwIC42Ni0uMjcgMS4yNi0uNjk3IDEuNjg4eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo=" alt="">
+          <p class="">Help Center</p>
+        </div>
+        <div class="footer_bottom_end">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDE4IDE3Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0xLTFoMjB2MjBILTF6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTYuNjY3IDVIMTQuODVjLjA5Mi0uMjU4LjE1LS41NDIuMTUtLjgzM2EyLjQ5NyAyLjQ5NyAwIDAgMC00LjU4My0xLjM3NUwxMCAzLjM1bC0uNDE3LS41NjdBMi41MSAyLjUxIDAgMCAwIDcuNSAxLjY2N2EyLjQ5NyAyLjQ5NyAwIDAgMC0yLjUgMi41YzAgLjI5MS4wNTguNTc1LjE1LjgzM0gzLjMzM2MtLjkyNSAwLTEuNjU4Ljc0Mi0xLjY1OCAxLjY2N2wtLjAwOCA5LjE2NkExLjY2IDEuNjYgMCAwIDAgMy4zMzMgMTcuNWgxMy4zMzRhMS42NiAxLjY2IDAgMCAwIDEuNjY2LTEuNjY3VjYuNjY3QTEuNjYgMS42NiAwIDAgMCAxNi42NjcgNXptMCA2LjY2N0gzLjMzM3YtNWg0LjIzNEw1LjgzMyA5LjAyNWwxLjM1Ljk3NSAxLjk4NC0yLjdMMTAgNi4xNjdsLjgzMyAxLjEzMyAxLjk4NCAyLjcgMS4zNS0uOTc1LTEuNzM0LTIuMzU4aDQuMjM0djV6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMSAtMSkiLz4KICAgIDwvZz4KPC9zdmc+Cg==" alt="">
+          <p class="">Become a Seller</p>
+        </div>
+        <div class="footer_bottom_end">
+  
+          
+        </div>
+
+        
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+<script src="../Bootstartp/Bootstrap.min.js"></script>
+<script src="../javascript/Yamaha Pasifica Standard.js"></script>
